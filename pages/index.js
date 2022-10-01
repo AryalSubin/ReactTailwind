@@ -17,6 +17,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import img1 from "../public/img1.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -199,6 +200,15 @@ export default function Home() {
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
+                layout="responsive"
+                src={web6}
+              />
+            </div>
+            <div className="basis-1/3 flex-3">
+              <Image
+                className="rounded-lg object-cover"
+                width={"50%"}
+                height={"90%"}
                 layout="responsive"
                 src={web6}
               />
